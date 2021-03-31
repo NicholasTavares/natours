@@ -2,9 +2,9 @@
 
 ## Projeto de estudos, ferramentas usadas:
 
-> HTML
-> CSS
-> SASS
+> 1. HTML
+> 2. CSS
+> 3. SASS
 
 
 
