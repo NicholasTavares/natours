@@ -40,6 +40,12 @@ body {
     opacity: 1;
     transform: translateY(0); } }
 
+@keyframes gradient-card {
+  from {
+    background-position: 0 50%; }
+  to {
+    background-position: 100% 50%; } }
+
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
@@ -244,7 +250,9 @@ body {
     .card__side--front {
       background-color: #fff; }
     .card__side--back {
-      transform: rotateY(180deg); }
+      transform: rotateY(180deg);
+      background-size: 300% 300%;
+      animation: gradient-card 6s ease-in-out alternate infinite; }
       .card__side--back-1 {
         background-image: linear-gradient(to right bottom, #ffb900, #ff7730); }
       .card__side--back-2 {
