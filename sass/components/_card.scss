@@ -27,9 +27,11 @@
 
         &--back{
             transform: rotateY(180deg);
+            background-size: 300% 300%;
+            animation: gradient-card 6s ease-in-out alternate infinite;
 
             &-1{
-                background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
+                background-image: linear-gradient(to right bottom,$color-secondary-light, $color-secondary-dark);
             }
 
             &-2{
@@ -41,6 +43,7 @@
             }
         }
     }
+
 
     &:hover &__side--front {
         transform: rotateY(-180deg);
