@@ -28,7 +28,7 @@
         &--back{
             transform: rotateY(180deg);
             background-size: 300% 300%;
-            animation: gradient-card 6s ease-in-out alternate infinite;
+            animation: gradient-card 6s cubic-bezier(0.86, 0, 0.07, 1) alternate infinite;
 
             &-1{
                 background-image: linear-gradient(to right bottom,$color-secondary-light, $color-secondary-dark);
